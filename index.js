@@ -1,4 +1,4 @@
-const marked = require("marked");
+const marked = require("marked").parse;
 const { JSDOM } = require("jsdom");
 
 module.exports = (htmlText, wndw) => {
