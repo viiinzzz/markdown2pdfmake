@@ -1,6 +1,6 @@
 {
   "name": "@viiinzzz/markdown2pdfmake",
-  "version": "1.1.0",
+  "version": "3.0.1-b.0",
   "description": "Converter of markdown to pdfmake",
   "author": "Sebastian Diez",
   "license": "MIT",
@@ -41,23 +41,23 @@
     "pdfmake": "^0.2.5"
   },
   "devDependencies": {
-    "marked": "*",
-    "pdfmake": "^0.2.5",
-    "jsdom": "^20.0.1",
-    "simple-test-framework": "^0.1.7",
     "browserify": "*",
     "debug": "*",
     "eslint": "*",
     "gulp": "*",
+    "gulp-clean-css": "*",
     "gulp-concat": "*",
     "gulp-debug": "*",
     "gulp-eslint": "*",
     "gulp-header": "*",
     "gulp-jsbeautifier": "*",
-    "gulp-clean-css": "*",
     "gulp-rename": "*",
     "gulp-uglify": "*",
-    "vinyl-source-stream": "*",
-    "vinyl-buffer": "*"
+    "jsdom": "^20.0.1",
+    "marked": "*",
+    "pdfmake": "^0.2.5",
+    "simple-test-framework": "^0.1.7",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
   }
 }
