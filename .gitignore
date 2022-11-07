@@ -21,3 +21,5 @@ pnpm-debug.log*
 *.suo
 *.sw?
 .vscode/settings.json
+
+package-lock.json
